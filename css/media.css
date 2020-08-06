@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+  :root {
+    --size-icons: 80%;
+    font-size: 7vw;
+  }
+
+  .main__title {
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+    width: 90%;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .main__title__box {
+    margin-top: 1.5rem;
+    height: 15%;
+  }
+}
