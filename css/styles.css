@@ -4,8 +4,8 @@
   font-size: 4vw;
 }
 
-body{
-    background-color:#101010;
+img {
+  stroke: white;
 }
 
 .main {
@@ -15,12 +15,8 @@ body{
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(5, 1fr);
-  background-image: url("/img/background2.webp");
-  animation: background 5s;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 2px solid white;
+  background: rgb(9, 104, 128);
+  background: linear-gradient(0deg, rgba(9, 104, 128, 1) 0%, rgba(0, 234, 255, 1) 100%);
 }
 
 @keyframes background {
@@ -42,6 +38,7 @@ body{
   grid-row: 2 / 3;
   grid-column: 2 / 5;
   color: #ffffff;
+  background-color: red;
   font-family: var(--font-family);
   font-size: 1.7rem;
   user-select: none;
@@ -105,10 +102,10 @@ body{
 
 @keyframes cursorblink {
   from {
-    border-right: 2px solid rgba(255, 255, 255, 0);
+    border-right: 3px solid rgba(255, 255, 255, 0);
   }
 
   to {
-    border-right: 2px solid rgb(255, 255, 255);
+    border-right: 3px solid rgb(255, 255, 255);
   }
 }
