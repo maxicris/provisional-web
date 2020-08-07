@@ -4,10 +4,6 @@
   font-size: 4vw;
 }
 
-img {
-  stroke: white;
-}
-
 .main {
   box-sizing: border-box;
   width: 100vw;
@@ -15,6 +11,7 @@ img {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(5, 1fr);
+  animation: background 2000ms steps(1000);
   background-image: url(../img/background.svg);
   background-position: center;
   background-size: cover;
@@ -84,13 +81,13 @@ img {
 .main__chrome {
   grid-row: 3 / 4;
   grid-column: 5 / 6;
-  place-self: end center;
+  place-self: center center;
 }
 
 /* ---  Animacion --- */
 
 .animation {
-  animation: keyframes 4000ms steps(1000),
+  animation: keyframes 3000ms steps(1000),
     cursorblink 0.8s infinite;
   overflow: hidden;
 }
