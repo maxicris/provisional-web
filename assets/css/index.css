@@ -12,7 +12,8 @@
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(5, 1fr);
   animation: background 2000ms steps(1000);
-  background-image: url(../img/background.svg);
+  background-image: url(../images/background.svg);
+  /* background-color: #003A66; */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
