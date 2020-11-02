@@ -1,28 +1,53 @@
-  :root {
-    --size-icons: 65%;
-    font-size: 7vw;
-  }
-
-.main {
-  background-position: bottom;
-    background-size: contain;
+:root {
+  --font-family: 'Poppins', sans-serif;
+  font-family: var(--font-family);
+  --space-cadet: #2D3764;
+  --kinetic: #141423;
 }
 
-  .main__title {
-    grid-row: 2 / 3;
-    grid-column: 1 / -1;
-    width: 90%;
-    white-space: normal;
-    text-align: center;
-  }
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--space-cadet);
+  height: 80vh;
+}
 
-  .main__title__box {
-    margin-top: 1.5rem;
-    height: 15%;
-  }
-  
-  .main__chrome {
-    grid-row: 3 / 4;
-    grid-column: 5 / 6;
-    place-self: end start;
-  }
+.main__title {
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: #f5f5f5;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.main__profile {
+  width: 75%;
+}
+
+.footer {
+  background-color: var(--kinetic);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 20vh;
+}
+
+.footer__title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #f5f5f5;
+  padding: 0 0 1rem 2.3rem;
+}
+
+.footer__network {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+
+.footer__icons {
+  width: 45%;
+}
