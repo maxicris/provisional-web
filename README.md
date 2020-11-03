@@ -1,2 +1,2 @@
 # provisional-web
-Mi primera web provisional -La que dice "En construción..."
+Segunda web provisional, hasta que salga la versión final.
